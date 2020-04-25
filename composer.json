@@ -1,0 +1,25 @@
+{
+    "name": "kittiefight/ethie",
+    "description": "Application to process Kittiefight Ethie metadata",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Kittiefight\\": "app/Kittiefight",
+            "": "app/"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.5",
+        "sc0vu/web3.php": "dev-master",
+        "guzzlehttp/psr7": "^1.6",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "monolog/monolog": "^2.0",
+        "php-di/slim-bridge": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Pavel Rubin",
+            "email": "pash7ka@gmail.com"
+        }
+    ]
+}
